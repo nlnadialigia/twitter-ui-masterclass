@@ -37,17 +37,16 @@ APP desenvolvida na Masterclass React, da [Rocketseat](https://www.rocketseat.co
 ```bash
 
 # Clone este repositório
-$ git clone
+$ git clone git@github.com:nlnadialigia/twitter-ui-masterclass.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd
+$ cd twitter-ui-masterclass
 
 # Instale as dependências
 $ pnpm install
 
 # Execute a aplicação em modo de desenvolvimento
 $ pnpm run dev
-
 
 ```
 
