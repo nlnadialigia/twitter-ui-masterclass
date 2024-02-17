@@ -62,6 +62,7 @@ $ pnpm run dev
 #### 🎲 Documentação
 
 - [Figma](https://www.figma.com/file/eQUg7jbkWtOkrxHRKBxHQ4/Twitter-UI?type=design&node-id=101%3A167&mode=design&t=s3O6Nd9YHPDW2Oqj-1)
+- [Plugins VsCode](.vscode/extensions.json)
 
 <br>
 
