@@ -12,6 +12,7 @@ import {
 import React from "react";
 import ReactDOM from "react-dom/client";
 import twitterLogo from "./assets/logo-twitter.svg";
+import { Tweet } from "./components/Tweet";
 import "./global.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
@@ -20,35 +21,35 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <aside className="sidebar">
         <img className="logo" src={twitterLogo} alt="Logo" />
         <nav className="main-navigation">
-          <a href="" className="active">
+          <a href="#" className="active">
             <House weight="fill" />
             Home
           </a>
-          <a href="">
+          <a href="#">
             <Hash />
             Explorer
           </a>
-          <a href="">
+          <a href="#">
             <Bell />
             Notifications
           </a>
-          <a href="">
+          <a href="#">
             <EnvelopeSimple />
             Messages
           </a>
-          <a href="">
+          <a href="#">
             <BookmarkSimple />
             Bookmarks
           </a>
-          <a href="">
+          <a href="#">
             <FileText />
             Lists
           </a>
-          <a href="">
+          <a href="#">
             <User />
             Profile
           </a>
-          <a href="">
+          <a href="#">
             <DotsThreeCircle />
             More
           </a>
@@ -74,6 +75,9 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           </form>
           <div className="separator" />
         </main>
+        <Tweet />
+        <Tweet />
+        <Tweet />
       </div>
     </div>
   </React.StrictMode>,
