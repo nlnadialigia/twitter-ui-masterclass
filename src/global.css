@@ -7,7 +7,7 @@
 :root {
   --twitter-blue: #1da1f2;
   --border: #ebeef0;
-  --placeholder: #5B7083;
+  --placeholder: #5b7083;
   --separator: #f7f9fa;
   --nickname: #89a2b8;
 }
@@ -17,7 +17,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-body, input, textarea, button {
+body,
+input,
+textarea,
+button {
   font: 400 1rem "Roboto", sans-serif;
 }
 
@@ -47,69 +50,9 @@ a {
   grid-template-columns: 300px 1fr;
 }
 
-.sidebar {
-  padding: 1.5rem 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.sidebar .logo {
-  width: 2rem;
-  height: 2rem;
-}
-
-.sidebar .new-tweet {
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  font-size: 1.25rem;
-  font-weight: 900;
-}
-
-.main-navigation {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.main-navigation a {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.main-navigation a.active {
-  color: var(--twitter-blue);
-}
-
-.main-navigation a svg {
-  width: 2rem;
-  height: 2rem;
-}
-
 .content {
   border-left: 1px solid var(--border);
   border-right: 1px solid var(--border);
-}
-
-.timeline-header {
-  padding: 1.5rem 1.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 1.25rem;
-  font-weight: 700;
-  border-bottom: 1px solid var(--border);
-}
-
-.timeline-header svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  color: var(--twitter-blue);
 }
 
 .new-tweet-form {
@@ -147,16 +90,9 @@ a {
   color: var(--placeholder);
 }
 
-.new-tweet-form button[type=submit] {
+.new-tweet-form button[type="submit"] {
   margin-left: auto;
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: 900;
-}
-
-.separator {
-  background-color: var(--separator);
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  height: 0.75rem;
 }
