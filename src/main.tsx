@@ -6,6 +6,7 @@ import {
   FileText,
   Hash,
   House,
+  Sparkle,
   User,
 } from "@phosphor-icons/react";
 import React from "react";
@@ -56,7 +57,24 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
           Tweet
         </button>
       </aside>
-      <div className="content">Content</div>
+      <div className="content">
+        <main className="timeLine">
+          <div className="timeline-header">
+            Home <Sparkle />
+          </div>
+          <form className="new-tweet-form">
+            <label htmlFor="tweet">
+              <img
+                src="https://github.com/nlnadialigia.png"
+                alt="Nadia Ligia"
+              />
+              <textarea id="tweet" placeholder="What's happening?" />
+            </label>
+            <button type="submit">Tweet</button>
+          </form>
+          <div className="separator" />
+        </main>
+      </div>
     </div>
   </React.StrictMode>,
 );
