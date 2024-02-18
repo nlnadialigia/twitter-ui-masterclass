@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Header } from "./components/Header";
-import { Separator } from "./components/Separator";
+import { RouterProvider } from "react-router-dom";
 import { Sidebar } from "./components/Sidebar";
-import { Tweet } from "./components/Tweet";
 import "./global.css";
+import { router } from "./routes";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -12,25 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Sidebar />
 
       <div className="content">
-        <main className="timeLine">
-          <Header title="Home" />
-          <form className="new-tweet-form">
-            <label htmlFor="tweet">
-              <img
-                src="https://github.com/nlnadialigia.png"
-                alt="Nadia Ligia"
-              />
-              <textarea id="tweet" placeholder="What's happening?" />
-            </label>
-            <button type="submit">Tweet</button>
-          </form>
-        </main>
-
-        <Separator />
-
-        <Tweet />
-        <Tweet />
-        <Tweet />
+        <RouterProvider router={router} />
       </div>
     </div>
   </React.StrictMode>,

@@ -16,7 +16,7 @@ export function Sidebar() {
     <aside className="sidebar">
       <img className="logo" src={twitterLogo} alt="Logo" />
       <nav className="main-navigation">
-        <a href="#" className="active">
+        <a href="/" className="active">
           <House weight="fill" />
           Home
         </a>
