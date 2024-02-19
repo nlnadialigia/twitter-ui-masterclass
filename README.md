@@ -30,6 +30,14 @@ APP desenvolvida na Masterclass React, da [Rocketseat](https://www.rocketseat.co
 
 ## 📎 Passo a passo
 
+- Criação da sidebar
+- Criação do header e do componente de tweet
+- Criação da listagem de tweets
+- Configuração das rotas
+- Criação das páginas home e status
+- Criação das funcionalidades de salvar tweets e respostas
+- Inclusão de responsividade
+
 <br>
 
 ## 🚀 Como executar o projeto
@@ -56,8 +64,10 @@ $ pnpm run dev
 
 #### 🎲 Bibliotecas
 
-- [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [React Router](https://reactrouter.com/en/main)
+- [Phosphor-icons](https://phosphoricons.com/)
 
 #### 🎲 Documentação
 

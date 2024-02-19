@@ -22,34 +22,34 @@ export function Sidebar() {
           <House weight="fill" />
           <span>Home</span>
         </NavLink>
-        <NavLink to="/explorer">
+        <a href="">
           <Hash />
           <span>Explorer</span>
-        </NavLink>
-        <NavLink to="/notifications">
+        </a>
+        <a href="">
           <Bell />
           <span>Notifications</span>
-        </NavLink>
-        <NavLink to="/messages">
+        </a>
+        <a href="">
           <EnvelopeSimple />
           <span>Messages</span>
-        </NavLink>
-        <NavLink to="/bookmarks">
+        </a>
+        <a href="">
           <BookmarkSimple />
           <span>Bookmarks</span>
-        </NavLink>
-        <NavLink to="/lists">
+        </a>
+        <a href="">
           <FileText />
           <span>Lists</span>
-        </NavLink>
-        <NavLink to="/profile">
+        </a>
+        <a href="">
           <User />
           <span>Profile</span>
-        </NavLink>
-        <NavLink to="/more">
+        </a>
+        <a href="">
           <DotsThreeCircle />
           <span>More</span>
-        </NavLink>
+        </a>
       </nav>
       <button className="new-tweet" type="button">
         <Pencil />
