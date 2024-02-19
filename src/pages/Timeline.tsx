@@ -4,14 +4,14 @@ import { Separator } from "../components/Separator";
 import { Tweet } from "../components/Tweet";
 import "./Timeline.css";
 
-let newTweet = "";
-
 export function Timeline() {
+  const [newTweet, setNewTweet] = useState("");
   const [tweets, setTweets] = useState(["A", "B", "C"]);
 
   function createNewTweet(event: FormEvent) {
     event.preventDefault();
-    setTweets([...tweets, newTweet]);
+    setTweets([newTweet, ...tweets]);
+    setNewTweet("");
   }
 
   return (
@@ -24,8 +24,9 @@ export function Timeline() {
           <textarea
             id="tweet"
             placeholder="What's happening?"
+            value={newTweet}
             onChange={(event) => {
-              newTweet = event.target.value;
+              setNewTweet(event.target.value);
             }}
           />
         </label>
