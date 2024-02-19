@@ -26,6 +26,8 @@ APP desenvolvida na Masterclass React, da [Rocketseat](https://www.rocketseat.co
 
 <!-- ![Em construção](https://ik.imagekit.io/l7cwocexhc/crud-flask/em-contrucao.png?updatedAt=1706705289779) -->
 
+![Demo](https://ik.imagekit.io/l7cwocexhc/readme/twitter_44utMmkyM.gif?updatedAt=1708306408431)
+
 <br>
 
 ## 📎 Passo a passo
