@@ -24,7 +24,7 @@ Clone da interface de usuário (UI) do Twitter utilizando React focado em aborda
 
 APP desenvolvida na Masterclass React, da [Rocketseat](https://www.rocketseat.com.br/).
 
-![Em construção](https://ik.imagekit.io/l7cwocexhc/crud-flask/em-contrucao.png?updatedAt=1706705289779)
+<!-- ![Em construção](https://ik.imagekit.io/l7cwocexhc/crud-flask/em-contrucao.png?updatedAt=1706705289779) -->
 
 <br>
 
