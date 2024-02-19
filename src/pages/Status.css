@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  flex: 1
+  flex: 1;
 }
 
 .answer-tweet-form label img {
@@ -41,4 +41,28 @@
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   font-weight: 900;
+}
+
+.answer-tweet-form button[type="submit"] svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+}
+
+@media (max-width: 780px) {
+  .answer-tweet-form label textarea {
+    font-size: 1rem;
+  }
+
+  .answer-tweet-form button[type="submit"] {
+    padding: 0.75rem;
+  }
+
+  .answer-tweet-form button[type="submit"] svg {
+    display: block;
+  }
+
+  .answer-tweet-form button[type="submit"] span {
+    display: none;
+  }
 }

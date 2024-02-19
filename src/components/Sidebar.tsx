@@ -6,6 +6,7 @@ import {
   FileText,
   Hash,
   House,
+  Pencil,
   User,
 } from "@phosphor-icons/react";
 import { NavLink } from "react-router-dom";
@@ -19,39 +20,40 @@ export function Sidebar() {
       <nav className="main-navigation">
         <NavLink to="/">
           <House weight="fill" />
-          Home
+          <span>Home</span>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="/explorer">
           <Hash />
-          Explorer
+          <span>Explorer</span>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="/notifications">
           <Bell />
-          Notifications
+          <span>Notifications</span>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="/messages">
           <EnvelopeSimple />
-          Messages
+          <span>Messages</span>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="/bookmarks">
           <BookmarkSimple />
-          Bookmarks
+          <span>Bookmarks</span>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="/lists">
           <FileText />
-          Lists
+          <span>Lists</span>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="/profile">
           <User />
-          Profile
+          <span>Profile</span>
         </NavLink>
-        <NavLink to="">
+        <NavLink to="/more">
           <DotsThreeCircle />
-          More
+          <span>More</span>
         </NavLink>
       </nav>
       <button className="new-tweet" type="button">
-        Tweet
+        <Pencil />
+        <span>Tweet</span>
       </button>
     </aside>
   );
